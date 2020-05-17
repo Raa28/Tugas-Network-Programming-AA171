@@ -40,5 +40,5 @@ try:
         client.publish('myhome/4bagus170010211/kitchen')
  
 except KeyboardInterrupt:
-    client.disconnect()
-    client.loop_stop()
+    client.disconnect() 
+    client.loop_stop() 
